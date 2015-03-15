@@ -1,0 +1,1 @@
+default['datacenter']['location'] = 'Russia'

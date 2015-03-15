@@ -1,0 +1,5 @@
+#This file is managed by the server <%= node['fqdn'] %>
+<% case node['datacenter']['location'] -%>
+	<% when 'Fitzmandia' -%>
+		0.0.0.0		www.nytimes.com	
+<% end -%>
